@@ -1,0 +1,973 @@
+[W 2021-06-25 10:13:02.551 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-25 10:13:02.551 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-06-25 10:13:02.558 LabApp] JupyterLab extension loaded from /home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyterlab
+[I 2021-06-25 10:13:02.558 LabApp] JupyterLab application directory is /home/percyliu/anaconda3/envs/tslearn/share/jupyter/lab
+[I 10:13:02.561 NotebookApp] Serving notebooks from local directory: /home/percyliu/Projects/RTC_traces/ft_local
+[I 10:13:02.561 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 10:13:02.561 NotebookApp] http://VM-251-68-centos:8888/?token=46f8e7fa4d529b9c295dbcd4ed31bd2ae74b82a003eb9855
+[I 10:13:02.561 NotebookApp]  or http://127.0.0.1:8888/?token=46f8e7fa4d529b9c295dbcd4ed31bd2ae74b82a003eb9855
+[I 10:13:02.561 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:13:02.564 NotebookApp] No web browser found: could not locate runnable browser.
+[C 10:13:02.564 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/percyliu/.local/share/jupyter/runtime/nbserver-19156-open.html
+    Or copy and paste one of these URLs:
+        http://VM-251-68-centos:8888/?token=46f8e7fa4d529b9c295dbcd4ed31bd2ae74b82a003eb9855
+     or http://127.0.0.1:8888/?token=46f8e7fa4d529b9c295dbcd4ed31bd2ae74b82a003eb9855
+[I 10:13:42.728 NotebookApp] 302 GET /?token=46f8e7fa4d529b9c295dbcd4ed31bd2ae74b82a003eb9855 (10.89.21.108) 0.430000ms
+[W 10:13:46.264 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 10:13:46.336 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 6.230000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 10:13:47.130 NotebookApp] Kernel started: bf04877d-c72b-4c2f-9678-a2f87e61ddbc, name: python3
+[W 10:14:12.616 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 10:14:12.730 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.240000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 10:14:14.236 NotebookApp] Kernel started: 0e4c5d84-9599-4810-806c-d08dccfbe95a, name: python3
+[I 10:15:48.351 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:15:48.359 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:17:47.232 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:17:47.239 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:18:34.949 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:18:34.956 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:18:36.246 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:18:36.253 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:18:38.385 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:18:38.392 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:18:42.084 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:4524eebea47f4a6387719622f0ec6187
+[I 10:18:43.501 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:8a519819a04b4324b345aa762429c5df
+[W 11:04:52.672 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 11:04:52.761 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.970000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 11:06:03.236 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:c6fb223357ac40da83fa2a9d2974fc93
+[W 12:27:13.074 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 12:27:13.164 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.150000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 12:27:14.518 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:2c5d3618e554466b8cd0ad159c1c1cb3
+[W 12:27:17.058 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 12:27:17.147 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.150000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 12:29:18.514 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 12:29:18.514 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 12:33:18.289 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 12:33:18.289 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 14:05:18.767 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 14:05:18.767 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 14:13:18.682 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 14:13:18.683 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 14:23:18.615 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 14:23:18.616 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 14:55:18.755 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 14:55:18.755 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 20:36:45.894 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 20:36:45.993 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.200000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[W 20:37:34.382 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 20:37:34.456 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.390000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 20:51:33.231 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:0abd73641ac94d5896d9d41429040042
+[I 20:51:33.235 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:8e32f6e27cff48d08a3b6416c7241111
+[W 09:49:46.789 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 09:49:46.849 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.110000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 09:49:47.560 NotebookApp] Discarding 4 buffered messages for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:8e32f6e27cff48d08a3b6416c7241111
+[W 09:49:47.933 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 09:49:49.724 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.410000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 09:51:48.102 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:51:48.123 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:53:47.597 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:53:47.614 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:55:47.997 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:55:48.017 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:57:47.836 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:57:47.856 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:59:47.763 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:59:47.764 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:01:47.558 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:01:47.559 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:03:47.845 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:03:47.866 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:07:47.957 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:07:47.978 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:09:47.758 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:09:47.779 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:11:47.698 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:11:47.719 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:10:18.221 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:68b902cccc144cbe8defb367ea3b0974
+[I 14:10:18.230 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:25500df266504bc4894179daef008a3f
+[W 14:15:31.440 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 14:15:32.370 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 14:15:33.034 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.250000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[W 14:15:34.457 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.250000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 19:25:35.180 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 19:25:35.180 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 19:33:35.020 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 19:33:35.020 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 19:35:34.529 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 19:35:34.529 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 19:58:13.053 NotebookApp] 404 GET /static/plotly.js?v=20210625101302 (10.89.21.108) 1.440000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 19:59:35.965 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:59:35.966 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 20:03:55.963 NotebookApp] 404 GET /pods (10.80.25.47) 1.610000ms referer=None
+[W 20:03:56.011 NotebookApp] 404 GET /xxl-job-admin/toLogin (10.80.25.47) 1.280000ms referer=None
+[W 20:03:56.038 NotebookApp] 404 GET http://10.204.9.230/flag.html (10.80.25.47) 1.290000ms referer=None
+[I 20:03:56.062 NotebookApp] 302 GET /ws/v1/cluster/ (10.80.25.47) 0.390000ms
+[I 20:03:56.083 NotebookApp] 302 GET /lab (10.80.25.47) 0.520000ms
+[I 20:03:56.106 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP request line
+[W 20:03:56.143 NotebookApp] 404 GET http://101.91.15.155/vul/Tst_SsrF.html (10.80.25.47) 1.290000ms referer=None
+[W 20:03:56.170 NotebookApp] 404 GET /json (10.80.25.47) 1.160000ms referer=None
+[W 20:03:56.225 NotebookApp] 405 OPTIONS / (10.80.25.47) 0.400000ms referer=None
+[W 20:03:56.245 NotebookApp] 404 GET /v2/keys (10.80.25.47) 1.180000ms referer=None
+[I 20:03:56.261 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP version in HTTP Request-Line: 'tstSIxxP/2.0'
+[I 20:03:56.288 NotebookApp] 302 GET / (10.80.25.47) 0.310000ms
+[I 20:03:56.299 NotebookApp] 302 GET / (10.80.25.47) 0.360000ms
+[I 20:03:56.314 NotebookApp] 302 GET // (10.80.25.47) 0.310000ms
+[I 20:03:56.337 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP request line
+[I 20:03:56.354 NotebookApp] 302 GET / (10.80.25.47) 0.400000ms
+[I 20:03:56.379 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'
+[I 20:11:34.837 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 20:11:34.837 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 20:17:35.246 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 20:17:35.247 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 20:19:34.590 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 20:19:34.591 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[I 20:27:35.447 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:27:35.449 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:39:34.830 NotebookApp] Saving file at /preprocessing_test.ipynb
+[W 20:39:34.831 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 09:42:04.517 NotebookApp] WebSocket ping timeout after 119888 ms.
+[I 09:42:09.526 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+Task exception was never retrieved
+future: <Task finished name='Task-839' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-840' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 09:59:06.956 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:59:06.957 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:59:08.518 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 09:59:35.799 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:59:35.800 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:01:36.217 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:01:36.218 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:15:35.831 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:15:35.832 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:17:35.839 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:17:35.840 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:21:50.536 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:21:50.540 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:21:51.785 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:21:51.786 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:21:53.134 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel bf04877d-c72b-4c2f-9678-a2f87e61ddbc restarted
+[I 10:44:44.280 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:44:44.280 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:07:33.847 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:07:33.848 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:30:23.786 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:30:23.787 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:04:25.622 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:04:25.623 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:12:32.277 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 16:12:32.278 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 16:15:20.439 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 16:15:20.518 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 17:02:33.620 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 17:02:33.622 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 17:05:35.285 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 17:05:35.366 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 18:29:31.686 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 18:29:31.687 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:25:48.745 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 19:25:48.746 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 19:29:59.060 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 19:29:59.132 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 19:59:18.079 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 19:59:18.083 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 20:03:37.304 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[I 20:03:37.387 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 20:32:52.693 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:215b9a3801a945e9aac561a06ab62137
+[I 20:32:52.695 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9f07e46ccd7c41eb9ec895ee467a6ada
+[W 22:25:59.459 NotebookApp] 404 GET /pods (9.135.100.135) 1.440000ms referer=None
+[W 22:25:59.487 NotebookApp] 404 GET /xxl-job-admin/toLogin (9.135.100.135) 1.080000ms referer=None
+[W 22:25:59.533 NotebookApp] 404 GET http://10.204.9.230/flag.html (9.135.100.135) 1.010000ms referer=None
+[I 22:25:59.559 NotebookApp] 302 GET /ws/v1/cluster/ (9.135.100.135) 0.330000ms
+[I 22:25:59.577 NotebookApp] 302 GET /lab (9.135.100.135) 0.410000ms
+[I 22:25:59.595 NotebookApp] Malformed HTTP message from 9.135.100.135: Malformed HTTP request line
+[W 22:25:59.636 NotebookApp] 404 GET http://101.91.15.155/vul/Tst_SsrF.html (9.135.100.135) 1.250000ms referer=None
+[W 22:25:59.651 NotebookApp] 404 GET /json (9.135.100.135) 0.970000ms referer=None
+[W 22:25:59.719 NotebookApp] 405 OPTIONS / (9.135.100.135) 0.340000ms referer=None
+[W 22:25:59.735 NotebookApp] 404 GET /v2/keys (9.135.100.135) 0.910000ms referer=None
+[I 22:25:59.760 NotebookApp] Malformed HTTP message from 9.135.100.135: Malformed HTTP version in HTTP Request-Line: 'tstSIxxP/2.0'
+[I 22:25:59.778 NotebookApp] 302 GET / (9.135.100.135) 0.260000ms
+[I 22:25:59.785 NotebookApp] 302 GET / (9.135.100.135) 0.300000ms
+[I 22:25:59.812 NotebookApp] 302 GET // (9.135.100.135) 0.280000ms
+[I 22:25:59.840 NotebookApp] Malformed HTTP message from 9.135.100.135: Malformed HTTP request line
+[I 22:25:59.854 NotebookApp] 302 GET / (9.135.100.135) 0.280000ms
+[I 22:25:59.868 NotebookApp] Malformed HTTP message from 9.135.100.135: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'
+[W 10:09:39.987 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 10:09:40.210 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 10:09:41.682 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.470000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[W 10:09:41.743 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.310000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 14:21:46.065 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:21:46.066 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:23:43.360 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:23:43.360 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:33:43.815 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:33:43.816 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:57:27.380 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9e68a13d1591421e97d9c399fc5fa3b1
+[I 14:57:27.380 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:6d547c825cd5480a8199e86e608242b5
+[I 15:02:20.080 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:6d547c825cd5480a8199e86e608242b5
+[I 15:02:20.174 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9e68a13d1591421e97d9c399fc5fa3b1
+[I 15:14:39.101 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:9e68a13d1591421e97d9c399fc5fa3b1
+[I 15:14:39.124 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:6d547c825cd5480a8199e86e608242b5
+[W 15:45:02.615 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 15:45:02.728 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.130000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[W 15:45:06.035 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 15:45:07.665 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.430000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 17:47:58.167 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a3406cf333ad44f496dffa086694be26
+[I 17:47:58.171 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:9313246fe0da42188adb3cac5dd9290e
+[I 10:39:26.239 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a3406cf333ad44f496dffa086694be26
+[I 11:15:25.590 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a3406cf333ad44f496dffa086694be26
+[W 14:20:00.660 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 14:20:01.923 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 14:20:02.714 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.190000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[W 14:20:04.338 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.280000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 14:22:05.473 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:22:05.474 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:24:05.057 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:24:05.057 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:28:05.159 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:28:05.160 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:30:05.072 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:30:05.073 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:32:05.047 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:32:05.047 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:34:05.120 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:34:05.120 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:36:05.136 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:36:05.137 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:38:05.274 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:38:05.274 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:40:05.141 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:40:05.142 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:42:05.252 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:42:05.252 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:44:05.135 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:44:05.135 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:50:05.634 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:50:05.634 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:48:05.847 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:48:05.847 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:52:05.443 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:52:05.444 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:00:05.504 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:00:05.505 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:02:05.290 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:02:05.291 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:04:05.263 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:04:05.264 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:06:05.502 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:06:05.503 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:09:38.377 NotebookApp] Kernel interrupted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 17:10:05.299 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:10:05.300 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:12:05.413 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:12:05.414 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:14:05.696 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:14:05.696 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:16:05.410 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:16:05.410 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:18:05.582 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:18:05.582 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:20:05.495 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:20:05.496 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:22:05.854 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:22:05.855 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:24:05.954 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:24:05.955 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:20:05.652 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:20:05.652 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:22:05.431 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:22:05.431 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:22:23.182 NotebookApp] Kernel interrupted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 19:24:05.416 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:24:05.417 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:26:05.546 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:26:05.547 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:34:05.583 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:34:05.583 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:40:06.207 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:40:06.208 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:42:05.252 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:42:05.252 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:56:05.475 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:56:05.476 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:58:05.304 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:58:05.304 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:00:05.281 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:00:05.282 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:02:05.273 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:02:05.273 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:04:05.263 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:04:05.263 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:06:05.249 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:06:05.250 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:08:05.357 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:08:05.357 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:10:05.271 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:10:05.272 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:12:05.314 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:12:05.314 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:16:05.680 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:16:05.680 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:18:05.362 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:18:05.362 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:20:05.405 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:20:05.405 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:24:05.241 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:24:05.242 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:26:05.638 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:26:05.639 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:28:05.243 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:28:05.244 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:30:05.286 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:30:05.286 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:32:05.372 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:32:05.373 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:34:05.697 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:34:05.698 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:36:05.330 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:36:05.331 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:42:05.594 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:42:05.599 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:46:05.363 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:46:05.364 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:48:05.273 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:48:05.273 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:50:05.351 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:50:05.352 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:52:05.210 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:52:05.211 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:56:05.466 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:56:05.467 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:58:05.309 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:58:05.309 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:00:05.550 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:00:05.550 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:16:06.127 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:16:06.128 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:18:05.715 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:18:05.715 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:24:06.028 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:24:06.028 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:24:27.923 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:dbb2a07fc4544c9687fc4286d91a9e4c
+[I 21:24:27.923 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 21:30:17.409 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:dbb2a07fc4544c9687fc4286d91a9e4c
+[I 21:30:17.553 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 21:32:05.844 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:32:05.845 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:34:06.230 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:34:06.231 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:36:05.603 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:36:05.604 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:38:05.594 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:38:05.594 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:40:05.555 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:40:05.555 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:46:05.884 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:46:05.884 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 02:46:18.674 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 02:46:18.677 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:dbb2a07fc4544c9687fc4286d91a9e4c
+[W 09:53:25.803 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 09:53:26.067 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.200000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 09:57:30.578 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:57:30.579 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:59:30.393 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:59:30.393 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:01:30.350 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:01:30.351 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:03:30.452 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:03:30.452 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:05:30.444 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:05:30.445 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:06:59.517 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 10:09:30.333 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:09:30.334 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:11:30.805 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:11:30.806 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:15:30.822 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:15:30.822 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:17:30.354 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:17:30.354 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:19:30.886 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:19:30.887 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:21:29.631 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:21:29.632 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:21:30.911 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:21:30.912 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:21:32.047 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:21:32.048 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:27:30.391 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:27:30.392 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:29:30.432 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:29:30.432 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:31:30.433 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:31:30.433 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:33:30.428 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:33:30.429 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:35:30.426 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:35:30.426 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:37:30.685 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:37:30.685 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:39:30.454 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:39:30.454 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:41:30.855 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:41:30.856 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:43:30.486 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:43:30.487 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:45:30.382 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:45:30.382 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:55:31.106 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:55:31.106 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:07:30.775 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:07:30.776 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:17:31.274 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:17:31.275 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:33:05.987 NotebookApp] 302 GET /?token=46f8e7fa4d529b9c295dbcd4ed31bd2ae74b82a003eb9855 (9.45.201.43) 0.390000ms
+[W 11:33:14.635 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 11:33:14.919 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (9.45.201.122) 1.690000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 11:35:21.427 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:35:21.428 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:43:22.765 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:43:22.766 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:47:21.714 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:47:21.714 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:55:21.731 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:55:21.732 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:57:22.753 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:57:22.754 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 12:13:21.582 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 12:13:21.582 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 12:15:21.558 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 12:15:21.558 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 12:25:18.591 NotebookApp] WebSocket ping timeout after 119966 ms.
+[I 13:16:36.167 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:8fb2b25e9b594227847c60d66be4a069
+[W 13:16:36.619 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 13:16:36.865 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.270000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 13:18:40.217 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 13:18:40.218 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 13:20:39.813 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 13:20:39.813 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 13:22:39.885 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 13:22:39.885 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 13:24:39.829 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 13:24:39.830 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 13:26:39.872 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 13:26:39.873 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:06:40.206 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:06:40.206 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:12:40.054 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:12:40.055 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:13:28.958 NotebookApp] Creating new notebook in 
+[I 14:13:29.856 NotebookApp] Kernel started: 8f292de9-3315-4a3a-8dad-e583b2ca4d9d, name: python3
+[W 14:13:29.876 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.330000ms referer=http://9.134.251.68:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 14:15:30.154 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:31:29.942 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:33:29.952 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:45:57.420 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:45:57.420 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:53:01.233 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:53:01.233 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 15:00:01.015 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 15:00:01.015 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 15:07:00.973 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 15:07:00.973 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 15:14:00.849 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 15:14:00.850 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 15:21:01.015 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 15:21:01.016 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 15:28:01.419 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 15:28:01.420 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 15:42:37.526 NotebookApp] WebSocket ping timeout after 119933 ms.
+[W 15:51:31.204 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 15:51:31.538 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (9.218.225.26) 1.760000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 15:55:38.101 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 15:55:38.102 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 15:57:38.959 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 15:57:38.960 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:01:37.963 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:01:37.963 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:01:38.638 NotebookApp] Kernel interrupted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 16:03:38.154 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:03:38.155 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:05:17.559 NotebookApp] Kernel interrupted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 16:05:38.087 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:05:38.087 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:07:38.106 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:07:38.106 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:09:37.871 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:09:37.872 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:11:38.120 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:11:38.121 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:13:37.824 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:13:37.824 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:15:35.353 NotebookApp] Kernel interrupted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 16:15:38.219 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:15:38.219 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 16:17:09.050 NotebookApp] WebSocket ping timeout after 119968 ms.
+[I 16:17:38.054 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:17:38.055 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:19:38.040 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:19:38.040 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:21:37.933 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:21:37.934 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:25:38.070 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:25:38.071 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:27:38.036 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:27:38.037 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:29:38.076 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:29:38.076 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:35:38.138 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:35:38.138 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:37:38.110 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:37:38.110 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:39:38.143 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:39:38.144 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:41:38.089 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:41:38.089 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:43:37.831 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:43:37.832 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:45:38.045 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:45:38.046 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:47:38.089 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:47:38.090 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:49:38.187 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:49:38.187 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 16:59:38.024 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 16:59:38.024 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:01:37.607 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:01:37.607 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:03:37.963 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:03:37.963 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:05:38.484 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:05:38.485 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:07:38.318 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:07:38.319 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:09:37.739 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:09:37.739 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:11:37.684 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:11:37.685 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:13:37.648 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:13:37.648 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:15:37.728 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:15:37.728 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:17:37.569 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:17:37.569 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:19:37.700 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:19:37.701 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:21:28.118 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:21:28.119 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:21:30.539 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:21:30.539 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:23:37.745 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:23:37.746 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:25:37.754 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:25:37.755 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:27:37.681 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:27:37.682 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:28:08.292 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:28:08.293 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:29:37.522 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:29:37.523 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 17:33:37.509 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 17:33:37.509 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 17:51:35.168 NotebookApp] WebSocket ping timeout after 119921 ms.
+[I 17:51:40.175 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:304000d79c8f41b084e93e4b9e094d7a
+[I 19:31:37.126 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 19:31:37.127 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5a9858b91a3c41ab82df34f5e5dc251a
+[I 19:31:37.129 NotebookApp] Starting buffering for 8f292de9-3315-4a3a-8dad-e583b2ca4d9d:6d24976d153d4ba3b5ac7b36a8bcb744
+[I 19:33:59.714 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5a9858b91a3c41ab82df34f5e5dc251a
+[I 19:34:00.533 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 19:34:22.532 NotebookApp] Restoring connection for 8f292de9-3315-4a3a-8dad-e583b2ca4d9d:6d24976d153d4ba3b5ac7b36a8bcb744
+[I 21:23:01.537 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5a9858b91a3c41ab82df34f5e5dc251a
+[I 21:23:01.537 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 21:23:01.547 NotebookApp] Starting buffering for 8f292de9-3315-4a3a-8dad-e583b2ca4d9d:6d24976d153d4ba3b5ac7b36a8bcb744
+[I 21:25:40.734 NotebookApp] Restoring connection for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[I 21:25:40.813 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5a9858b91a3c41ab82df34f5e5dc251a
+[I 21:25:40.891 NotebookApp] Restoring connection for 8f292de9-3315-4a3a-8dad-e583b2ca4d9d:6d24976d153d4ba3b5ac7b36a8bcb744
+[I 02:30:06.256 NotebookApp] Starting buffering for 8f292de9-3315-4a3a-8dad-e583b2ca4d9d:6d24976d153d4ba3b5ac7b36a8bcb744
+[I 02:30:06.260 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5a9858b91a3c41ab82df34f5e5dc251a
+[I 02:30:06.260 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:a615cd9c6c4f49838800374914f25018
+[W 09:52:51.551 NotebookApp] Notebook Untitled.ipynb is not trusted
+[W 09:52:51.629 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.410000ms referer=http://9.134.251.68:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 09:52:59.513 NotebookApp] Starting buffering for 8f292de9-3315-4a3a-8dad-e583b2ca4d9d:a2ada674033f416b828ebaadf6b7e7eb
+[I 09:53:00.590 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5a9858b91a3c41ab82df34f5e5dc251a
+[I 09:53:13.457 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5a9858b91a3c41ab82df34f5e5dc251a
+[W 10:27:49.431 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 10:27:49.620 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.140000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 10:29:53.347 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:29:53.348 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:41:01.994 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:602925b8aad741a296f3f397e3011ce2
+[W 11:14:20.566 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 11:14:20.759 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.140000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 11:38:23.844 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:38:23.845 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:40:24.226 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:40:24.226 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:42:23.680 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:42:23.680 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:44:23.602 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:44:23.603 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:48:24.250 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:48:24.250 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 11:56:26.922 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 11:56:27.025 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.140000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 12:16:42.145 NotebookApp] Starting buffering for 0e4c5d84-9599-4810-806c-d08dccfbe95a:46c25b8db2654a3e9eb49ab5c78eb043
+[I 14:20:24.459 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:20:24.460 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:47:39.375 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:47:39.375 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:48:23.684 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:48:23.684 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:50:23.743 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:50:23.744 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:52:23.786 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:52:23.787 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 14:54:24.320 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 14:54:24.321 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:42:24.714 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:42:24.715 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:44:23.926 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:44:23.927 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:46:23.878 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:46:23.878 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:48:24.041 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:48:24.041 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:50:23.916 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:50:23.917 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 19:58:24.260 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 19:58:24.261 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:00:23.944 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:00:23.945 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:02:23.971 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:02:23.972 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:04:24.603 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:04:24.603 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:14:24.379 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:14:24.380 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:16:23.896 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:16:23.896 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:18:24.037 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:18:24.038 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:20:23.874 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:20:23.875 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:22:24.602 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:22:24.603 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:24:23.901 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:24:23.901 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:26:23.929 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:26:23.930 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:28:23.896 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:28:23.897 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:30:23.872 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:30:23.873 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:32:10.909 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:32:10.909 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:32:14.851 NotebookApp] Kernel restarted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 20:32:14.852 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5c1f5d01eaf54d1b9af9f3e6fde22a70
+[I 20:32:14.924 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5c1f5d01eaf54d1b9af9f3e6fde22a70
+[I 20:32:15.429 NotebookApp] Replaying 3 buffered messages
+[I 20:32:23.893 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:32:23.894 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:34:23.925 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:34:23.926 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:36:06.827 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:36:06.827 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:36:23.851 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:36:23.851 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:38:24.498 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:38:24.499 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:44:24.212 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:44:24.212 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:46:24.009 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:46:24.010 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:48:23.926 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:48:23.927 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:52:24.009 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:52:24.009 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:53:48.984 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:53:48.985 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:54:23.964 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:54:23.964 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:56:23.918 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:56:23.919 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 20:58:23.920 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 20:58:23.920 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:00:23.916 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:00:23.917 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:02:23.889 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:02:23.889 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:10:24.235 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:10:24.236 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:12:23.998 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:12:23.998 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:14:23.968 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:14:23.969 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:16:23.911 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:16:23.912 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:18:24.111 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:18:24.112 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:20:24.000 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:20:24.001 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:22:23.905 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:22:23.906 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:26:23.875 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:26:23.876 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:32:24.280 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:32:24.280 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:34:23.996 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:34:23.997 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:35:40.917 NotebookApp] Kernel interrupted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 21:36:23.928 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:36:23.929 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:38:23.936 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:38:23.937 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:40:24.025 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:40:24.026 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:44:24.632 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:44:24.633 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:46:23.939 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:46:23.939 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:48:23.926 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:48:23.927 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:50:23.933 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:50:23.934 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:52:24.193 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:52:24.193 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:54:23.975 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:54:23.975 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:54:49.916 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:54:49.916 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:54:50.898 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:54:50.898 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:54:57.331 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:54:57.331 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:56:23.977 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:56:23.977 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 21:58:24.663 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 21:58:24.664 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 22:00:24.489 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 22:00:24.490 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 22:06:24.920 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 22:06:24.920 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 22:08:23.957 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 22:08:23.958 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 22:10:24.605 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 22:10:24.606 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 22:12:24.609 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 22:12:24.609 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 01:21:40.714 NotebookApp] 404 GET /pods (10.80.25.47) 1.350000ms referer=None
+[W 01:21:40.746 NotebookApp] 404 GET /xxl-job-admin/toLogin (10.80.25.47) 1.090000ms referer=None
+[W 01:21:40.796 NotebookApp] 404 GET http://10.204.9.230/flag.html (10.80.25.47) 1.040000ms referer=None
+[I 01:21:40.812 NotebookApp] 302 GET /ws/v1/cluster/ (10.80.25.47) 0.370000ms
+[I 01:21:40.835 NotebookApp] 302 GET /lab (10.80.25.47) 0.430000ms
+[I 01:21:40.855 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP request line
+[W 01:21:40.893 NotebookApp] 404 GET http://101.91.15.155/vul/Tst_SsrF.html (10.80.25.47) 1.060000ms referer=None
+[W 01:21:40.912 NotebookApp] 404 GET /json (10.80.25.47) 1.000000ms referer=None
+[W 01:21:40.971 NotebookApp] 405 OPTIONS / (10.80.25.47) 0.330000ms referer=None
+[W 01:21:40.990 NotebookApp] 404 GET /v2/keys (10.80.25.47) 1.340000ms referer=None
+[I 01:21:41.014 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP version in HTTP Request-Line: 'tstSIxxP/2.0'
+[I 01:21:41.034 NotebookApp] 302 GET / (10.80.25.47) 0.270000ms
+[I 01:21:41.049 NotebookApp] 302 GET / (10.80.25.47) 0.300000ms
+[I 01:21:41.071 NotebookApp] 302 GET // (10.80.25.47) 0.280000ms
+[I 01:21:41.099 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP request line
+[I 01:21:41.115 NotebookApp] 302 GET / (10.80.25.47) 0.290000ms
+[I 01:21:41.125 NotebookApp] Malformed HTTP message from 10.80.25.47: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'
+[I 09:54:24.704 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:54:24.705 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:56:24.398 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:56:24.399 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 09:58:24.432 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 09:58:24.433 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:00:24.382 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:00:24.383 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:02:24.425 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:02:24.426 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:04:24.563 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:04:24.563 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:06:24.447 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:06:24.448 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:08:24.429 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:08:24.430 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:10:24.416 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:10:24.417 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:12:24.426 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:12:24.427 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:14:24.463 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:14:24.464 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:16:24.430 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:16:24.430 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:18:24.452 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:18:24.452 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:19:53.302 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:19:53.303 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:20:24.418 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:20:24.418 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:22:24.422 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:22:24.423 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:24:25.013 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:24:25.013 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:26:25.012 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:26:25.012 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:28:25.087 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:28:25.088 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:30:24.619 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:30:24.620 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:32:24.630 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:32:24.631 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:34:24.442 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:34:24.443 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:36:24.426 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:36:24.427 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:38:24.462 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:38:24.462 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:56:24.835 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:56:24.836 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 10:58:24.471 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 10:58:24.472 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:00:24.705 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:00:24.705 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:02:24.477 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:02:24.478 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:02:40.387 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:02:40.388 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:02:42.116 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5c1f5d01eaf54d1b9af9f3e6fde22a70
+[I 11:02:43.932 NotebookApp] Kernel restarted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 11:02:44.004 NotebookApp] Restoring connection for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5c1f5d01eaf54d1b9af9f3e6fde22a70
+[I 11:02:44.509 NotebookApp] Replaying 3 buffered messages
+[I 11:04:24.521 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:04:24.522 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:06:24.507 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:06:24.508 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:08:24.665 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:08:24.666 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:10:24.546 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:10:24.546 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:12:24.645 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:12:24.646 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:14:24.617 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:14:24.617 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:16:25.196 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:16:25.197 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:20:24.580 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:20:24.581 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:22:24.646 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:22:24.647 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:24:25.173 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:24:25.174 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 11:25:36.873 NotebookApp] 404 GET /static/notebook/js/main.min.js.map (10.89.21.108) 1.390000ms referer=None
+[I 11:30:24.631 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:30:24.631 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:32:24.688 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:32:24.688 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:34:24.587 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:34:24.588 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:38:24.611 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:38:24.612 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:44:24.696 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:44:24.697 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:46:24.480 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:46:24.481 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:48:24.613 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:48:24.613 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:50:07.076 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:50:07.077 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:50:24.524 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:50:24.525 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:52:24.669 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:52:24.670 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:54:24.896 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:54:24.896 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 11:56:24.692 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 11:56:24.692 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 12:09:20.018 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 12:09:20.019 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 12:20:09.871 NotebookApp] Saving file at /preprocessing_rtc.ipynb
+[W 12:20:09.871 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[I 12:20:20.713 NotebookApp] Kernel interrupted: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[I 12:20:41.721 NotebookApp] Starting buffering for bf04877d-c72b-4c2f-9678-a2f87e61ddbc:5c1f5d01eaf54d1b9af9f3e6fde22a70
+[W 12:20:42.188 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 12:20:42.696 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.130000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[W 12:20:49.306 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 12:20:49.654 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.150000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[W 12:21:28.054 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 12:21:28.253 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.180000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[I 12:21:32.958 NotebookApp] Kernel shutdown: bf04877d-c72b-4c2f-9678-a2f87e61ddbc
+[W 12:21:41.583 NotebookApp] Notebook preprocessing_rtc.ipynb is not trusted
+[W 12:21:41.775 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.220000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_rtc.ipynb
+[W 12:21:47.979 NotebookApp] Notebook preprocessing_test.ipynb is not trusted
+[W 12:21:48.118 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210625101302 (10.89.21.108) 1.130000ms referer=http://9.134.251.68:8888/notebooks/preprocessing_test.ipynb
+[I 12:22:01.121 NotebookApp] Shutting down on /api/shutdown request.
+[I 12:22:01.122 NotebookApp] Shutting down 2 kernels
+[I 12:22:02.933 NotebookApp] Kernel shutdown: 0e4c5d84-9599-4810-806c-d08dccfbe95a
+[I 12:22:02.934 NotebookApp] Kernel shutdown: 8f292de9-3315-4a3a-8dad-e583b2ca4d9d
+[I 12:22:02.934 NotebookApp] Shutting down 0 terminals
+[I 12:22:02.935 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 12:22:02.935 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7f88e39cddc0>>
+    Traceback (most recent call last):
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/ioloop.py", line 905, in _run
+        return self.callback()
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/restarter.py", line 116, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/manager.py", line 503, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/manager.py", line 441, in shutdown_kernel
+        self.interrupt_kernel()
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/manager.py", line 597, in interrupt_kernel
+        raise RuntimeError("Cannot interrupt kernel. No kernel is running!")
+    RuntimeError: Cannot interrupt kernel. No kernel is running!
+[I 12:22:02.939 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 12:22:02.940 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7f88e4e57580>>
+    Traceback (most recent call last):
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/tornado/ioloop.py", line 905, in _run
+        return self.callback()
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/restarter.py", line 116, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/manager.py", line 503, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/manager.py", line 441, in shutdown_kernel
+        self.interrupt_kernel()
+      File "/home/percyliu/anaconda3/envs/tslearn/lib/python3.8/site-packages/jupyter_client/manager.py", line 597, in interrupt_kernel
+        raise RuntimeError("Cannot interrupt kernel. No kernel is running!")
+    RuntimeError: Cannot interrupt kernel. No kernel is running!
+[W 2021-07-06 14:53:40.147 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-06 14:53:40.147 LabApp] 'allow_root' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-06 14:53:40.147 LabApp] 'allow_root' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-06 14:53:40.154 LabApp] JupyterLab extension loaded from /home/percyliu/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-06 14:53:40.154 LabApp] JupyterLab application directory is /home/percyliu/anaconda3/share/jupyter/lab
+[I 14:53:40.158 NotebookApp] Serving notebooks from local directory: /data/ft_local
+[I 14:53:40.158 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 14:53:40.158 NotebookApp] http://VM-251-68-centos:8888/?token=28cf4c28cedc6fd7b94b811c31da1549ca2209d8583b8716
+[I 14:53:40.158 NotebookApp]  or http://127.0.0.1:8888/?token=28cf4c28cedc6fd7b94b811c31da1549ca2209d8583b8716
+[I 14:53:40.158 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:53:40.162 NotebookApp] No web browser found: could not locate runnable browser.
+[C 14:53:40.162 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/percyliu/.local/share/jupyter/runtime/nbserver-10483-open.html
+    Or copy and paste one of these URLs:
+        http://VM-251-68-centos:8888/?token=28cf4c28cedc6fd7b94b811c31da1549ca2209d8583b8716
+     or http://127.0.0.1:8888/?token=28cf4c28cedc6fd7b94b811c31da1549ca2209d8583b8716
